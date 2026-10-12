@@ -23,5 +23,5 @@ Website ini tampil rapi di ponsel, tablet, dan laptop.
 
 ## Tautan
 
-- Website: menyusul setelah *deploy* ke Vercel
+- Website: https://portofolio-andi-pratama.vercel.app
 - Dibuat oleh: Andi Pratama, SMK Mitra
