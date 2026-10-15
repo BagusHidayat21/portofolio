@@ -113,6 +113,9 @@ function tampilkanProyek(daftar) {
 function pasangFilter(idTombol, kategori) {
   const tombol = document.querySelector(idTombol);
   tombol.addEventListener("click", () => {
+    document.querySelector(".tombol-filter.aktif").classList.remove("aktif");
+    tombol.classList.add("aktif");
+
     if (kategori === "Semua") {
       tampilkanProyek(proyek);
     } else {
@@ -124,5 +127,7 @@ function pasangFilter(idTombol, kategori) {
 if (daftarProyek) {
   tampilkanProyek(proyek);
   pasangFilter("#filter-semua", "Semua");
+  pasangFilter("#filter-html", "HTML");
+  pasangFilter("#filter-css", "CSS");
   pasangFilter("#filter-javascript", "JavaScript");
 }

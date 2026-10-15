@@ -288,6 +288,12 @@ footer a {
   font-weight: 600;
 }
 
+.tombol-filter.aktif {
+  border-color: var(--warna-aksen);
+  background-color: var(--warna-aksen);
+  color: #FFFFFF;
+}
+
 /* 11. Tema gelap: isi variabel diganti saat body memiliki class gelap */
 body.gelap {
   --warna-utama: #0B1526;
