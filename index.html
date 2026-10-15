@@ -9,8 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/latihan.js" defer></script>
-  <script src="js/logika.js" defer></script>
+  <script src="js/main.js" defer></script>
 </head>
 <body>
   <header>
@@ -23,6 +22,7 @@
           <li><a href="kontak.html">Kontak</a></li>
         </ul>
       </nav>
+      <button type="button" id="tombol-tema" class="tombol-tema">Mode Gelap</button>
     </div>
   </header>
 
@@ -64,12 +64,8 @@
 
         <section class="kartu">
           <h2>Keahlian</h2>
-          <ul>
-            <li>HTML dan CSS dasar (sedang dipelajari)</li>
-            <li>Git dan GitHub (sedang dipelajari)</li>
-            <li>Mengetik cepat</li>
-            <li>Desain poster dengan Canva</li>
-          </ul>
+          <ul id="daftar-skill"></ul>
+          <p id="jumlah-skill"></p>
         </section>
       </div>
 
