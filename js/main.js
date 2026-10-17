@@ -149,3 +149,23 @@ async function ambilRepo() {
 if (daftarRepo) {
   ambilRepo();
 }
+
+// 6. Uji praktik paket A: tambah keahlian (halaman Beranda)
+const inputSkill = document.querySelector("#skill-baru");
+const pilihLevel = document.querySelector("#level-baru");
+const tombolSkill = document.querySelector("#tombol-skill");
+const pesanSkill = document.querySelector("#pesan-skill");
+
+if (tombolSkill) {
+  tombolSkill.addEventListener("click", () => {
+    if (inputSkill.value === "") {
+      pesanSkill.textContent = "Nama keahlian wajib diisi.";
+    } else {
+      const item = document.createElement("li");
+      item.textContent = `${inputSkill.value} (${pilihLevel.value})`;
+      daftarSkill.appendChild(item);
+      pesanSkill.textContent = `Keahlian ${inputSkill.value} berhasil ditambahkan.`;
+      inputSkill.value = "";
+    }
+  });
+}

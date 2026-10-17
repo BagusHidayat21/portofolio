@@ -304,3 +304,10 @@ body.gelap {
   --warna-kartu: #1C2836;
   --warna-garis: #34465A;
 }
+
+/* 12. Uji praktik paket A: form tambah keahlian */
+.tambah-skill {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--warna-garis);
+}
