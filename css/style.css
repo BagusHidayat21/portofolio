@@ -1,5 +1,5 @@
 /* Gaya portofolio Andi Pratama
-   Palet: #1D3557 (utama), #E63946 (aksen), #F1FAEE (latar)
+   Palet: #1D3557 (utama), #C1121F (aksen), #F1FAEE (latar)
    Huruf: Poppins (judul), Inter (isi)
    Tata letak: mobile first, titik ubah 768px (tablet) dan 1024px (laptop)
    Tema: warna disimpan di variabel CSS, tema gelap memakai class .gelap pada body */
@@ -19,8 +19,8 @@ img {
 :root {
   --warna-utama: #1D3557;
   --warna-judul: #1D3557;
-  --warna-aksen: #E63946;
-  --warna-tautan: #E63946;
+  --warna-aksen: #C1121F;
+  --warna-tautan: #C1121F;
   --warna-latar: #F1FAEE;
   --warna-teks: #333333;
   --warna-kartu: #FFFFFF;
